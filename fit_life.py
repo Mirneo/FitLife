@@ -28,6 +28,6 @@ water_per_day = (user_weight * water_per_kg) / 1000
 print(
     f'Отчет для пользователя: {user_name} ({user_age} лет)\n'
     f'Твой индекс массы тела (BMI): {round(bmi, 1)}\n'
-    f'Рекомендуемая норма воды: {round(water_per_day, 1)} л. в день'
+    f'Рекомендуемая норма воды: {round(water_per_day, 1)} л. в день',
 )
 print("Расчет окончен. Будьте здоровы!")
