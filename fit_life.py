@@ -3,7 +3,7 @@
 
 # 1. Знакомство
 WATER_PER_KG = 30  # Константа: количество воды в мл на 1 кг веса
-
+ML_PER_LITER = 1000  # Константа: количество мл в 1 литре
 # Приветственное сообщение
 print('Привет, введи свои данные!')
 # Запрос на ввод имени юзера
@@ -46,7 +46,7 @@ while True:
 bmi = user_weight / (user_height ** 2)
 bmi_rounded = round(bmi, 1)
 # Расчет нормы воды с округлением до одного знака после запятой
-water_per_day = (user_weight * WATER_PER_KG) / 1000
+water_per_day = (user_weight * WATER_PER_KG) / ML_PER_LITER
 water_per_day_rounded = round(water_per_day, 1)
 # 4. Вывод красивого результата
 # с информацией о пользователе, его BMI и рекомендуемой норме воды
